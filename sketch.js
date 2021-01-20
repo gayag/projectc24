@@ -40,8 +40,9 @@ function setup() {
 
 
 function draw() {
-	rectMode(CENTER);
+	//rectMode(CENTER);
 	background("lightBlue");
+	Engine.update(engine);
   
 	hammer.display();
 	plane.display();
